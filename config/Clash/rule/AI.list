@@ -1,5 +1,5 @@
 # 2024-10-10 14:36:12
-# AI from Clash by 可莉
+# Clash AI rules by 可莉
 
 AND,((DOMAIN-KEYWORD,chatgpt-async-webps-prod-eastus-),(DOMAIN-SUFFIX,webpubsub.azure.com))
 AND,((DOMAIN-KEYWORD,openaicom-api-),(DOMAIN-SUFFIX,azurefd.net))
