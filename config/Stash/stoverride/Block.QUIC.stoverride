@@ -1,0 +1,10 @@
+name: 屏蔽 QUIC 协议
+desc: QUIC 会导致部分广告拦截失败
+category: 去广告
+icon: https://raw.githubusercontent.com/Koolson/Qure/refs/heads/master/IconSet/Dark/Reject.png
+
+rules:
+  - SCRIPT,quic,REJECT,no-track
+script:
+  shortcuts:
+    quic: network == 'udp' and dst_port == 443
