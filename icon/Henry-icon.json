@@ -123,6 +123,10 @@
      "url":"https://raw.githubusercontent.com/HenryCarey/ToolsResources/main/icon/library/juseyun.png"
   },
   {
+    "name":"DNS.png",
+    "url":"https://raw.githubusercontent.com/HenryCarey/ToolsResources/main/icon/library/DNS.png"
+ },
+  {
      "name":"QUIC.png",
      "url":"https://raw.githubusercontent.com/HenryCarey/ToolsResources/main/icon/library/QUIC.png"
   }
