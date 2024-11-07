@@ -1,0 +1,14 @@
+name: 去广告规则
+desc: 使用来自 Cats-Team 的去广告规则
+author: Henry
+icon: https://raw.githubusercontent.com/fmz200/wool_scripts/main/icons/erdongchanyo/AdBlock.png
+category: 去广告
+
+rule-providers:
+  BlockADs-rule:
+    behavior: domain-text
+    url: https://adrules.top/adrules_domainset.txt
+    interval: 86400
+
+rules:
+  - RULE-SET,BlockADs-rule,REJECT
