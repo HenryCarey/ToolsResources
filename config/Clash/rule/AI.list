@@ -1,6 +1,5 @@
-# 2024-10-10 14:36:12
+# 2024-10-25 16:28:21
 # Clash AI rules by 可莉
-
 AND,((DOMAIN-KEYWORD,chatgpt-async-webps-prod-eastus-),(DOMAIN-SUFFIX,webpubsub.azure.com))
 AND,((DOMAIN-KEYWORD,openaicom-api-),(DOMAIN-SUFFIX,azurefd.net))
 DOMAIN,o33249.ingest.sentry.io
@@ -41,7 +40,9 @@ DOMAIN-SUFFIX,grazie.aws.intellij.net
 DOMAIN,imagine.meta.com
 DOMAIN-SUFFIX,meta.ai
 
+DOMAIN-SUFFIX,pplx.ai
 DOMAIN-SUFFIX,perplexity.ai
+DOMAIN-SUFFIX,perplexity.com
 
 DOMAIN,chat.mistral.ai
 DOMAIN,console.mistral.ai
