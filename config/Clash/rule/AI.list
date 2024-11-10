@@ -1,4 +1,4 @@
-# 2024-11-10
+# 2024-10-25
 # Clash AI rules by 可莉
 
 AND,((DOMAIN-KEYWORD,chatgpt-async-webps-prod-eastus-),(DOMAIN-SUFFIX,webpubsub.azure.com))
