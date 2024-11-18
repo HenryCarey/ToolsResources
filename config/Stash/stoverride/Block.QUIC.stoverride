@@ -1,5 +1,5 @@
 name: 屏蔽 QUIC 协议
-desc: QUIC 会导致部分APP变慢
+desc: 拦截国外 QUIC, 国内 QUIC 直连
 category: 去广告
 icon: https://raw.githubusercontent.com/HenryCarey/ToolsResources/main/icon/library/QUIC.png
 
