@@ -4,7 +4,9 @@ category: 去广告
 icon: https://raw.githubusercontent.com/HenryCarey/ToolsResources/main/icon/library/QUIC.png
 
 rules:
+  - SCRIPT,udp-cn,DIRECT
   - SCRIPT,quic,REJECT,no-track
 script:
   shortcuts:
     quic: network == 'udp' and dst_port == 443
+    udp-cn: network == 'udp' and geoip(dst_ip if dst_ip != '' else resolve_ip(host)) == 'CN' # 匹配发往 CN 的 UDP
