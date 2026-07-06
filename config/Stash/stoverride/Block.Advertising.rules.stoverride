@@ -6,9 +6,8 @@ category: 去广告
 
 rule-providers:
   blockads-rule:
-    behavior: domain
-    format: text
-    url: https://adrules.top/adrules-mihomo.mrs
+    behavior: domain-text
+    url: https://adrules.top/adrules_domainset.txt
     interval: 86400
 
 rules:
