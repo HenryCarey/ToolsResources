@@ -5,7 +5,7 @@ icon: https://raw.githubusercontent.com/HenryCarey/ToolsResources/main/icon/libr
 
 rules:
   - SCRIPT,udp-cn,DIRECT
-  - SCRIPT,quic,REJECT
+  - SCRIPT,quic,REJECT,no-track
 script:
   shortcuts:
     quic: network == 'udp' and dst_port == 443
